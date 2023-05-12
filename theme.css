@@ -9,20 +9,20 @@ body{
   background-attachment:fixed;
   background-image: linear-gradient(135deg, #5e0686 0%, #74a8c3 100%);
   /* background: #dfdfdf; */
-  margin: 0 5px;
+  margin: 75px 5px;
+  max-height: 100vh;
 }
 
 .container {
   max-width: 1000px;
-  padding: 40px 15px 100px;
+  padding: 40px 15px 50px;
   margin: auto; 
   background: #FFF;
-  border-radius: 15px;
+  border-radius: 0 0 15px 15px;
 }
 
 .banner{
   height: 30vh;
-  background-image: url("https://www.analyticssteps.com/backend/media/thumbnail/9557995/8054994_1641555985_Artificial%20intelligence%20and%20emotional%20intelligenceArtboard%201.jpg")u;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,10 +34,10 @@ body{
   flex-direction: column;
 }
 
-.text > h3{
-  font-size: 5em;
-  color: #FFF;
-  margin-bottom: 5px;
+h3{
+  font-size: 2em;
+  color: #5e0686;
+  margin: 0;
 }
 
 
@@ -63,32 +63,57 @@ button{
 }
 .btns{
   float: right;
-  padding-top: 30px;
+  width: 320;
+  /* padding-top: 30px; */
 }
+
 
 /* .button{ */
 /* } */
 .rule_btn{
   padding: 6px;  
-  width: 160px;
+  width: 45%;
   background:  #5e0686;
   border-radius: 10px;
 
 }
+.rule_btn:hover{
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.32);
+  transition: .2s;
+}
 .participate_btn{
   padding: 6px;  
-  width: 160px;
+  width: 45%;
   background:  #5e0686;
   border-radius: 10px;
+}
+.participate_btn:hover{
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.32);
+  transition: .2s;
 }
 
 a{
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 600;
   color: #fff;
+}
+a:hover{
+  letter-spacing: 1.2px;
+  transition: .2s;
 }
  /* <div class="btns"> */
  /*        <button class="rule_btn" type="button"> <a href="#">Rules</a></button> */
  /*        <button class="participate_btn" type="button"> <a href="#">participate</a></button> */
  /*      </div> */
  /*  */
+.holding {
+  max-width: 1000px;
+  height: fit-content;
+  margin: auto; 
+  border-radius: 15px;
+}
+img{
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
